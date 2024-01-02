@@ -1,5 +1,6 @@
 <script>
-	import { persons } from '$lib/shared';
+	import { persons, games } from '$lib/shared';
+
 	import { Aflag, Countries, Footer, Header, Hero, SupportUs, OtherGames } from '$lib/widgets';
 </script>
 
@@ -13,6 +14,6 @@
 
 <Countries />
 
-<OtherGames />
+<OtherGames {games} />
 
-<Footer />
+<Footer {games} {persons} />
