@@ -1,5 +1,16 @@
 const persons = [
 	{
+		title: 'Christian',
+		link: '/',
+		desc: [
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+		],
+		img: 'christian.svg',
+		bgColor: '#ffffff',
+		altText: 'Mutual anarchism'
+	},
+	{
 		title: 'Mutual',
 		link: '/',
 		desc: [
