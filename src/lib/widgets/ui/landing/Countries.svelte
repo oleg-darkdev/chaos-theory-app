@@ -12,7 +12,7 @@
 		<div class="mx-auto grid max-w-5xl grid-cols-2 justify-items-center gap-4 ">
 			{#each countries as country}
 				<div
-					class="group flex w-full max-w-sm flex-row flex-wrap items-center border-2 border-white  bg-black py-4 px-2 hover:bg-white "
+					class="group flex w-full max-w-sm flex-row flex-wrap items-center   bg-black py-4 px-2 hover:bg-white "
 				>
 					<img src="./images/flags/{country.flag}" class="h-24 w-24 lg:mr-4" alt={country.title} />
 
