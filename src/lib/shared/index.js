@@ -1,5 +1,17 @@
-import countries from './data/countries.js';
-import persons from './data/persons.js';
-import games from './data/otherBoardgames.js';
+import { countries, locationsTocData, personsTocData, mainTocData, persons, games } from './data/';
 
-export { countries, persons, games };
+import NavBtn from './ui/app/NavBtn.svelte';
+import HorisontalImage from './ui/app/HorisontalImage.svelte';
+import LevelCard from './ui/app/LevelCard.svelte';
+
+export {
+	NavBtn,
+	HorisontalImage,
+	LevelCard,
+	countries,
+	locationsTocData,
+	personsTocData,
+	mainTocData,
+	persons,
+	games
+};
