@@ -2,13 +2,22 @@
 	export let games;
 </script>
 
-<section class="h-auto w-full bg-white py-20">
-	<div class="mx-auto max-w-4xl ">
-		<h2>See more games</h2>
+<section class="h-auto w-full bg-gray-100 py-20 ">
+	<div class="mx-auto max-w-6xl ">
+		<h2 class="mb-6 text-center text-6xl font-black text-black">Other games</h2>
+
+		<a name="other-games" />
 
 		<div class="flex flex-row flex-wrap justify-center">
 			{#each games as boardgame}
-				<div
+				<a href={boardgame.link}
+					><img
+						class="h-[350px] w-auto rounded-lg p-8 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+						src="./images/games/{boardgame.img}"
+						alt={boardgame.title}
+					/></a
+				>
+				<!-- <div
 					class="main-bg mx-1 my-4 flex max-w-[270px] flex-col rounded-lg p-0 text-neutral-100 shadow-md"
 				>
 					<a href={boardgame.link}
@@ -30,7 +39,7 @@
 							>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			{/each}
 		</div>
 	</div>
