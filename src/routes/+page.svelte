@@ -12,7 +12,7 @@
 
 <SupportUs />
 
-<Countries />
+<!-- <Countries /> -->
 
 <OtherGames {games} />
 
