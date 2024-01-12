@@ -1,31 +1,41 @@
 const games = [
 	{
-		title: 'LGBT',
+		title: 'Eco activism',
 		desc: [
 			'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
 			''
 		],
-		img: 'https://miro.medium.com/max/2400/0*hDAyhnOx767w5qma.jpg',
+		img: 'eco.svg',
 		link: '/',
 		price: '30'
 	},
 	{
-		title: 'Skquat wars',
+		title: 'Anarchy theory',
 		desc: [
 			'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
 			''
 		],
-		img: 'https://miro.medium.com/max/2400/0*hDAyhnOx767w5qma.jpg',
+		img: 'a.svg',
 		link: '/',
 		price: '30'
 	},
+	// {
+	// 	title: 'Skquat wars',
+	// 	desc: [
+	// 		'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
+	// 		''
+	// 	],
+	// 	img: 'https://miro.medium.com/max/2400/0*hDAyhnOx767w5qma.jpg',
+	// 	link: '/',
+	// 	price: '30'
+	// },
 	{
 		title: 'Food not Bombs',
 		desc: [
 			'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
 			''
 		],
-		img: 'https://miro.medium.com/max/2400/0*hDAyhnOx767w5qma.jpg',
+		img: 'fnb.svg',
 		link: '/',
 		price: '30'
 	},
@@ -35,7 +45,7 @@ const games = [
 			'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
 			''
 		],
-		img: 'https://miro.medium.com/max/2400/0*hDAyhnOx767w5qma.jpg',
+		img: 'ror.svg',
 		link: '/',
 		price: '30'
 	},
@@ -45,30 +55,30 @@ const games = [
 			'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
 			''
 		],
-		img: 'https://miro.medium.com/max/2400/0*hDAyhnOx767w5qma.jpg',
+		img: 'gw.svg',
 		link: '/',
 		price: '30'
 	},
 	{
-		title: 'Locators wars',
+		title: 'LGBT',
 		desc: [
 			'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
 			''
 		],
-		img: 'https://miro.medium.com/max/2400/0*hDAyhnOx767w5qma.jpg',
-		link: '/',
-		price: '30'
-	},
-	{
-		title: 'Eco activism',
-		desc: [
-			'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
-			''
-		],
-		img: 'https://miro.medium.com/max/2400/0*hDAyhnOx767w5qma.jpg',
+		img: 'lgbt.svg',
 		link: '/',
 		price: '30'
 	}
+	// {
+	// 	title: 'Locators wars',
+	// 	desc: [
+	// 		'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
+	// 		''
+	// 	],
+	// 	img: 'https://miro.medium.com/max/2400/0*hDAyhnOx767w5qma.jpg',
+	// 	link: '/',
+	// 	price: '30'
+	// },
 ];
 
 export default games;
