@@ -1,7 +1,6 @@
 <script>
-  export let games, persons;
+	export let games, persons;
 </script>
-
 
 <footer class="main-bg">
 	<div class="container mx-auto p-6">
@@ -13,7 +12,7 @@
 					</a>
 
 					<p class="mt-2 max-w-sm text-gray-500 dark:text-gray-400">
-						Join 31,000+ other and never miss out on new tips, tutorials, and more.
+						Lorem ipsum is placeholder text commonly used in the graphic.
 					</p>
 
 					<div class="-mx-2 mt-6 flex">
@@ -75,16 +74,17 @@
 				<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
 					<div>
 						<h3 class="uppercase text-gray-700 dark:text-white">Anarchism types</h3>
-            {#each persons as anarchoTypes}
-						<a href="#" class="mt-2 block text-sm text-gray-600 hover:underline dark:text-gray-400"
-							>{anarchoTypes.altText}</a
-						>
-            {/each}
+						{#each persons as anarchoTypes}
+							<a
+								href="#"
+								class="mt-2 block text-sm text-gray-600 hover:underline dark:text-gray-400"
+								>{anarchoTypes.altText}</a
+							>
+						{/each}
 					</div>
 
-
 					<div>
-						<h3 class="uppercase text-gray-700 dark:text-white">Other Products</h3>
+						<h3 class="uppercase text-gray-700 dark:text-white">Other Boardgames</h3>
 						{#each games as game}
 							<a
 								href={game.link}
