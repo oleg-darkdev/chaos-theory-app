@@ -31,7 +31,7 @@
 				style="border-color: {person.bgColor};"
 			>
 				<div class="relative right-44 h-full w-full">
-					<img class="h-full w-full" src="./images/persons/{person.img}" alt={person.title} />
+					<img class="group:transition group:ease-in-out group:delay-550 group-hover:-translate-y-1 group-hover:scale-110 group:duration-600 h-full w-full" src="./images/persons/{person.img}" alt={person.title} />
 				</div>
 			</div>
 		</div>
