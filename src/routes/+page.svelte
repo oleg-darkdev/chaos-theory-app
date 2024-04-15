@@ -4,6 +4,12 @@
 	import { Aflag, Countries, Footer, Header, Hero, SupportUs, OtherGames } from '$lib/widgets';
 </script>
 
+
+<svelte:head>
+    <title>Boardgame: Philosophy of liberty</title>
+</svelte:head>
+
+
 <Header />
 
 <Hero />
@@ -14,6 +20,7 @@
 
 <!-- <Countries /> -->
 
-<OtherGames {games} />
+<!-- <OtherGames {games} /> -->
 
 <Footer {games} {persons} />
+
