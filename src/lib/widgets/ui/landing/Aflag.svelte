@@ -14,7 +14,7 @@
 				</span>
 				<div class="mt-6 mb-20 max-w-sm">
 					{#each person.desc as desc}
-						<p style="color: {person.bgColor}; " class='mb-2'>{person.desc}</p>
+						<p style="color: {person.bgColor}; " class='mb-2'>{desc}</p>
 					{/each}
 				</div>
 				<div class="">

@@ -8,7 +8,7 @@
 			<div class="-mx-6 w-full lg:w-2/5">
 				<div class="px-6">
 					<a href="#">
-						<img class="h-7 w-auto" src="https://merakiui.com/images/full-logo.svg" alt="" />
+						<img class="h-32 rounded-lg w-auto" src="/images/logo.svg" alt="" />
 					</a>
 
 					<p class="mt-2 max-w-sm text-gray-500 dark:text-gray-400">
