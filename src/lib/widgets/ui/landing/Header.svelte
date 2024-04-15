@@ -10,11 +10,11 @@
 		},
     {
 			title: 'Donate',
-			link: '#donate'
+			link: '/'
 		},
 		{
 			title: 'Other games',
-			link: '#other-games'
+			link: '/'
 		}
 		// {
 		// 	title: '',
