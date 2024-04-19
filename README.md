@@ -1,38 +1,49 @@
-# create-svelte
+The starter is prepared for deployment to [Vercel](https://vercel.com/).
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Configured to use [Typescipt](https://www.typescriptlang.org/).
 
-## Creating a project
+## Stack
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [SvelteJS](https://svelte.dev/)
+- [SvelteKIT](https://kit.svelte.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [FSD architecture](https://feature-sliced.design/ru/docs/get-started)
 
-```bash
-# create a new project in the current directory
-npm init svelte
-
-# create a new project in my-app
-npm init svelte my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Commands
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# clone repository and install packages
+git clone https://github.com/oleg-darkdev/;
 ```
-
-## Building
-
-To create a production version of your app:
 
 ```bash
-npm run build
+# start the server
+cd backend;
+
+yarn;
+
+yarn dev
 ```
 
-You can preview the production build with `npm run preview`.
+```bash
+# start the front-end & open the app in a new browser tab
+cd frontend;
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+yarn;
+
+yarn dev --open
+```
+
+```bash
+# create a production version  of front-end app :
+cd frontend;
+
+yarn build;
+```
+
+```bash
+# create a production version  of back-end app :
+cd backend;
+
+yarn build;
+```

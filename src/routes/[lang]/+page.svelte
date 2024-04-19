@@ -1,4 +1,7 @@
 <script>
+	import { i } from '@inlang/sdk-js';
+	// import {HeadHrefLangs} from '$shared';
+
 	import { persons, games } from '$lib/shared';
 
 	import { Aflag, Countries, Footer, Header, Hero, SupportUs, OtherGames } from '$lib/widgets';
@@ -7,6 +10,8 @@
 
 <svelte:head>
     <title>Boardgame: Philosophy of liberty</title>
+    	<!-- <HeadHrefLangs /> -->
+
 </svelte:head>
 
 
