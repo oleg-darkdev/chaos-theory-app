@@ -11,7 +11,7 @@
 		<h1>Home</h1>
 	</a> -->
 
-	<LocaleSwitcher />
+	<!-- <LocaleSwitcher /> -->
 
 <main class="main-bg">
 	<slot />
