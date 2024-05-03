@@ -63,8 +63,8 @@
     
 	</svg>
 	
-	<img src="/images/a-symvol.svg" class='h-40 w-40 -mt-40 mx-auto' alt="">
-	<div class="mx-auto h-full h-screen max-w-3xl rounded-2xl bg-white pt-6">
+	<img src="/images/a-symbol.svg" class='h-40 w-40 -mt-40 mx-auto' alt="">
+	<div class="mx-auto  pb-10 max-w-3xl rounded-2xl bg-white pt-6">
 		<a name="about" />
 
 		<!-- <h1 class="text-center text-6xl font-black text-black">Made by utopia</h1> -->
@@ -74,6 +74,14 @@
           <p class="mt-3 text-base leading-relaxed text-gray-500">
             Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
           </p>
+          <p class="mt-3 text-base leading-relaxed text-gray-500">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.          </p>
+          <p class="mt-3 text-base leading-relaxed text-gray-500">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.          </p>
+          <p class="mt-3 text-base leading-relaxed text-gray-500">
+            Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+          </p>
+         
           <!-- <div class="mt-6">
             <a href="#" class="flex items-center justify-center w-full px-10 py-4 text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Accept </a>
           </div> -->
