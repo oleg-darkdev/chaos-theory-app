@@ -5,7 +5,7 @@
 		<img src="./images/subscribe.svg" class="h-full w-8/12 rounded-lg" alt="" />
 
 		<div class="">
-			<h2 class="mb-2 text-6xl font-black">Support the progect</h2>
+			<!-- <h2 class="mb-2 text-6xl font-black">Support the progect</h2>
 			<span class="text-md font-semibold uppercase  tracking-widest "
 				>Lorem ipsum dolor sit amet.
 			</span>
@@ -14,7 +14,7 @@
 			<div class="flex flex-row">
 				<div class="">IG</div>
 				<div class="">FB</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>
