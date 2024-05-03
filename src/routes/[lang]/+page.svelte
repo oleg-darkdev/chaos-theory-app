@@ -15,7 +15,9 @@
 </svelte:head>
 
 
-<Header />
+<!-- <Header /> -->
+
+<div >
 
 <Hero />
 
@@ -26,6 +28,7 @@
 <!-- <Countries /> -->
 
 <!-- <OtherGames {games} /> -->
+</div>
 
 <Footer {games} {persons} />
 
